@@ -31,11 +31,12 @@ label + .radio-wrapper {
         top: .5rem;
         left: .5rem;
     }
+    
     &:hover, &:focus-within {
         border: 1px solid var(--stroke-highlight);
         
         & .radio-image {
-            background-image: url(../../icons/circle-hover.svg);;
+            background-image: url(../../icons/circle-hover.svg);
         }
     }
 
@@ -43,7 +44,7 @@ label + .radio-wrapper {
         border: 2px solid var(--stroke-highlight);
 
         & .radio-image {
-            background-image: url(../../icons/circle-selected.svg);;
+            background-image: url(../../icons/circle-selected.svg);
         }
     }
 }
